@@ -1,0 +1,22 @@
+name: ThunderStick
+version: 1.0.0
+description: Makes all golden swords summon lightning on hit
+author: ThunderStick Dev
+main: com.thunderstick.plugin.ThunderStickPlugin
+api-version: 1.21
+website: https://github.com/thunderstick/plugin
+
+commands:
+  thunderstick:
+    description: ThunderStick plugin commands
+    usage: /thunderstick [reload|info]
+    permission: thunderstick.admin
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  thunderstick.admin:
+    description: Allows access to ThunderStick admin commands
+    default: op
+  thunderstick.use:
+    description: Allows use of ThunderStick (golden sword lightning)
+    default: true

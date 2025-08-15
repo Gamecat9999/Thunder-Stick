@@ -1,0 +1,4 @@
+com\thunderstick\plugin\ThunderStickPlugin.class
+com\thunderstick\plugin\managers\CooldownManager.class
+com\thunderstick\plugin\commands\ThunderStickCommand.class
+com\thunderstick\plugin\listeners\ThunderStickListener.class
